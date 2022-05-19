@@ -1,13 +1,77 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Rubik", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.divider {
+  border-bottom: 1px solid #eaeaea;
+  width: unset;
+  text-align: inherit;
+}
+
+.bg-soft-primary {
+  background-color: #f1f5fd !important;
+}
+
+.graphics {
+  width: 200px;
+}
+
+@media only screen and (max-width: 900px) {
+  .graphics {
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .graphics-1 {
+    width: 500px;
+  }
+  .graphics-2 {
+    width: 100px;
+  }
+  .graphics-3 {
+    width: 100px;
+  }
+  .hero-img {
+    left: 0;
+    bottom: 0;
+    width: 230px;
+  }
+  .graphics {
+    width: 100px;
+  }
+  .logo-img {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .graphics-1 {
+    width: 400px;
+  }
+  .graphics-2 {
+    width: 50px;
+  }
+  .graphics-3 {
+    width: 50px;
+  }
+  .hero-img {
+    left: 0;
+    bottom: 0;
+    width: 100px;
+  }
+  .graphics {
+    width: 50px;
+  }
+  .logo-img {
+    width: 200px;
+  }
 }
