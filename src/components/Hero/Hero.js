@@ -24,5 +24,5 @@ const Hero = () => {
         </section>
     )
 }
-// "homepage": "https://vishwasracharya.github.io/landing-page-react",
+
 export default Hero;
