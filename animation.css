@@ -1,0 +1,83 @@
+.blurIn {
+  -webkit-animation: blurIn ease 0.8s;
+  animation: blurIn ease 0.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes blurIn {
+  0% {
+    filter: blur(1px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn ease 0.8s;
+  animation: fadeIn ease 0.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bounceIn {
+  -webkit-animation: bounceIn ease 0.8s;
+  animation: bounceIn ease 0.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.slideIn {
+  -webkit-animation: slideIn ease 0.8s;
+  animation: slideIn ease 0.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slideUp {
+  -webkit-animation: slideUp ease 0.8s;
+  animation: slideUp ease 0.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
